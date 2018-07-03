@@ -30,7 +30,7 @@ defmodule ExAws.Acm.MixProject do
   defp deps do
     [
       {:credo, "~> 0.0", only: [:dev, :test]},
-      {:dialyxir, "~> 0.0"},
+      {:dialyxir, "~> 0.0", only: [:dev, :test]},
       {:ex_doc, ">= 0.0.0", only: :dev},
       {:hackney, ">= 0.0.0", only: [:dev, :test]},
       {:mix_test_watch, "~> 0.0", only: :dev, runtime: false},
